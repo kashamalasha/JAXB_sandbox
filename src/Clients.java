@@ -1,5 +1,5 @@
-import com.sun.xml.internal.txw2.annotation.XmlElement;
 
+import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,5 +14,9 @@ public class Clients {
     @XmlElement(name = "Client")
     public List<Client> getClients() {
         return clients;
+    }
+
+    public void setClients(List<Client> clients) {
+        this.clients = clients;
     }
 }
