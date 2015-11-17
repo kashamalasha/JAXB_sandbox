@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Clients>
+    <Client>
+        <Name>Dima</Name>
+        <Phone>+05522332344</Phone>
+    </Client>
+    <Client>
+        <Name>Bill</Name>
+        <Phone>+05565666545</Phone>
+    </Client>
+</Clients>
