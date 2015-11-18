@@ -2,6 +2,7 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileWriter;
 
 /**
@@ -33,10 +34,11 @@ public class Main {
         marshaller.marshal(clients, new FileWriter("test.xml"));
         */
         File file = new File("test.xml");
+
         JAXBContext context = JAXBContext.newInstance(Clients.class);
         Unmarshaller unmarshaller = context.createUnmarshaller();
 
-        Clients clients = (Clients) unmarshaller.unmarshal(file);
+        Clients clients = (Clients) unmarshaller.unmarshal(new FileInputStream(file));
 
         for (Client client : clients.getClients()) {
             System.out.println(client.getName() + "\t" + client.getPhone());
