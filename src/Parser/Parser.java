@@ -1,7 +1,7 @@
 package Parser;
 
 /**
- * Created by me on 11/19/15.
+ * Интерфейс для маршаллинга и анмаршаллинга данных
  */
 public interface Parser {
 }
