@@ -4,7 +4,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
 /**
- * Created by katerinache on 14/11/15.
+ * Класс Модель, содержащий данные о клиентах
  */
 @XmlType
 public class Client {

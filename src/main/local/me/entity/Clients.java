@@ -6,13 +6,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by katerinache on 14/11/15.
+ * Класс модель, обертка для клиентов
  */
-@XmlRootElement(name = "local.me.entity.Clients")
+@XmlRootElement(name = "Clients")
 public class Clients {
-    private List<Client> clients = new ArrayList<Client>();
+    private List<Client> clients = new ArrayList<>();
 
-    @XmlElement(name = "local.me.entity.Client")
+    @XmlElement(name = "Client")
     public List<Client> getClients() {
         return clients;
     }

@@ -6,7 +6,7 @@ import java.io.File;
 import java.io.FileInputStream;
 
 /**
- * Created by katerinache on 14/11/15.
+ * Основной класс, содержащий логику
  */
 public class Main {
     public static void main(String[] args) throws Exception{

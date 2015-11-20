@@ -1,7 +1,7 @@
 package local.me.parser.impl;
 
 /**
- * Created by me on 11/20/15.
+ * Реализация интерфейса парсера
  */
 public class JAXBParser {
 }
