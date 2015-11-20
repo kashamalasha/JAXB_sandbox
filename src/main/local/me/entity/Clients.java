@@ -1,4 +1,4 @@
-package MyApp;
+package local.me.entity;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -8,11 +8,11 @@ import java.util.List;
 /**
  * Created by katerinache on 14/11/15.
  */
-@XmlRootElement(name = "MyApp.Clients")
+@XmlRootElement(name = "local.me.entity.Clients")
 public class Clients {
     private List<Client> clients = new ArrayList<Client>();
 
-    @XmlElement(name = "MyApp.Client")
+    @XmlElement(name = "local.me.entity.Client")
     public List<Client> getClients() {
         return clients;
     }

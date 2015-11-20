@@ -1,4 +1,4 @@
-package Parser;
+package local.me.parser;
 
 /**
  * Интерфейс для маршаллинга и анмаршаллинга данных

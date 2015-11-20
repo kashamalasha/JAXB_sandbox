@@ -1,4 +1,4 @@
-package MyApp;
+package local.me.entity;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Unmarshaller;
@@ -10,24 +10,24 @@ import java.io.FileInputStream;
  */
 public class Main {
     public static void main(String[] args) throws Exception{
-        /*MyApp.Client client1 = new MyApp.Client();
+        /*local.me.entity.Client client1 = new local.me.entity.Client();
         client1.setName("John");
         client1.setPhone("+05522332344");
 
-        MyApp.Client client2 = new MyApp.Client();
+        local.me.entity.Client client2 = new local.me.entity.Client();
         client2.setName("Bill");
         client2.setPhone("+05565666545");
 
-        MyApp.Clients clients = new MyApp.Clients();
+        local.me.entity.Clients clients = new local.me.entity.Clients();
         clients.getClients().add(client1);
         clients.getClients().add(client2);
 
-        for (MyApp.Client client : clients.getClients()) {
+        for (local.me.entity.Client client : clients.getClients()) {
             System.out.println(client.getName() + "\t" + client.getPhone());
         }*/
 
         /*
-        JAXBContext context = JAXBContext.newInstance(MyApp.Clients.class);
+        JAXBContext context = JAXBContext.newInstance(local.me.entity.Clients.class);
         Marshaller marshaller = context.createMarshaller();
 
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
