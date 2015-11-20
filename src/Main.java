@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileWriter;
 
 /**
- * Created by katerinache on 14/11/15.
+ * Базовый класс
  */
 public class Main {
     public static void main(String[] args) throws Exception{
