@@ -31,11 +31,11 @@ public class JAXBParserTest {
         scanner.nextLine();
 
         Client client1 = new Client();
-        client1.setName("Ekaterina12");
+        client1.setName("Ekaterina25");
         client1.setPhone("+79030014484");
 
         Client client2 = new Client();
-        client2.setName("Dmitry5");
+        client2.setName("Dmitry25");
         client2.setPhone("+79261580974");
 
         clients.getClients().add(client1);
